@@ -1,0 +1,14 @@
+POST http://localhost:8080/battle HTTP/1.1
+content-type: application/json
+
+{
+    "player": "TheClip",
+    "enemy": "Monster"
+}
+
+
+GET http://localhost:8080/battle HTTP/1.1
+content-type: application/json
+{
+    
+}
